@@ -1,0 +1,7 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Pastas do Node (se vier a usar futuramente)
+node_modules/
+.env

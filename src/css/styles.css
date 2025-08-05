@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+
+    --color-primary-1: #ffe53bd8;
+    --color-primary-2: #ff6a25da;
+
+    --text-color: #ffffff; 
+    --border-color: #ffd000; 
+    --color-neutral: #262626;
+
+    --linear-gradient: linear-gradient(120deg, var(--color-primary-1), var(--color-primary-2));
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; 
+
+
+    background-image: url('../img/fundo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.calculator {
+    background-color: var(--text-color);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.323);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.input-container {
+    margin: 25px 0px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.input-group input { 
+    padding: 8px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
+}
+
+input-group input:focus-visible {
+    outline: transparent;
+}
+
+.input-group span {
+    color: var(--color-neutral);
+    padding: 2px 15px;
+}
+
+.input-group p { 
+    background: var(--linear-gradient);
+    color: var(--text-color);
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+}
+
+.input-text {
+    margin: 15px 0px;
+}
+
+#calculate {
+    background: var(--linear-gradient);
+    border: none;
+    color: var(--text-color);
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    transition: background .5s ease;
+}
+
+#calculate:hover {
+    background: var(--color-primary-2);
+}
+
