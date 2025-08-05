@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/47e8d522-1b7b-466b-b3b3-03cd8b3cd2ec/deploy-status)](https://app.netlify.com/projects/regra-de-tres-devtreds/deploys)
+
 # 📐 Regra de Três – Calculadora Simples
 
 Este projeto é uma calculadora de **regra de três simples**, feita para ajudar em situações rápidas do dia a dia, como proporções, porcentagens e conversões.
